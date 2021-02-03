@@ -1,0 +1,305 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Raleway', 'Sans serif';
+    margin: 0;
+}
+
+/* Screen Dimensions */
+
+@media screen and (min-width: 940px) and (max-width: 1415px) {
+    .body {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 940px) {
+
+}
+
+@media screen and (min-width: 140px) and (max-width: 600px) {
+
+}
+
+/* Full Body */
+
+.body {
+    margin-left: 3%;
+    margin-right: 3%;
+    font-family: 'Raleway';
+    display: block;
+    color: black;
+    font-weight: normal;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1.2em;
+    opacity: 0.8;
+    margin-top: -15px;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    background-color: lightblue;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#logo {
+    background-color: lightpink;
+    text-align: center;
+}
+
+#logo-img {
+    width: 125px;
+}
+
+.NavMenu {
+    background-color: lightcoral;
+    width: 480px;
+}
+
+.liMenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1em;
+}
+
+.liMenu-list-signup {
+    color: blue;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: overline;
+    text-decoration-color: blue;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* Search Button */
+
+.recherche {
+    background-color: white;
+    height: 300px;
+}
+
+#containerBtn {
+    display: flex;
+    padding-top: 10px;
+}
+
+.BtnIcon {
+    opacity: 0.8;
+    background-color: #F2F2F2;
+    border-radius: 10px 0px 0px 10px;
+    border: 1px solid #F2F2F2;
+    width: 20px;
+    text-align: center;
+    padding: 15px;
+    display: inline-block;
+}
+
+.text-input {
+    padding: 15px;
+    width: 250px;
+    border: #f2f2f2;
+    font-weight: bold;
+    font-size: 17px;
+    color: black;
+    border: 1fx solid #F2F2F2;
+}
+
+.BtnSearch {
+    padding: 15px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Filter Div */
+
+#containerFilter {
+    background-color: lightcoral;
+    display: flex;
+    margin-top: 30px;
+    width: 900px;
+    align-items: center;
+}
+
+.Filter-text {
+    font-weight: 600;
+    font-size: 1.3em;
+    background-color: transparent;
+}
+
+.Filter {
+    display: inline-block;
+    background-color: white;
+    padding-right: 20px;
+    border-radius: 30px;
+    margin-left: 30px;
+    border: 3px solid #F2F2F2;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-align: center;
+}
+
+#dollar, #child, #heart, #dog {
+    background-color: #DEEBFF;
+    padding: 12px 12px 12px 12px;
+    margin-right: 10px;
+    border-radius: 50% 50% 50% 50%;
+    color: #0065fc ;
+}
+
+#info {
+    padding-top: 25px;    
+    display: flex;
+    align-items: center;
+}
+
+#info-Btn {
+    color: #0065fc;
+    margin: 0px 15px 30px 0px;
+    border: 2px solid #F2F2F2;
+    padding: 8px;
+    border-radius: 100%;
+    text-align: center;
+    width: 12px;
+}
+
+#info-txt {
+    font-size: 1.05em;
+    font-weight: 200;
+}
+
+
+/* Main Article */
+
+.Main {
+    justify-content: space-between;
+    display: flex;
+    height: auto;
+    margin-bottom: 80px;
+}
+
+#ArticleHeb {
+    background-color: blue;
+    border-radius: 15px;
+    width: 65%;
+}
+
+#Heb-title {
+    padding: 20px 0px 0px 40px;
+}
+
+#file-hotel {
+    display: flex; 
+    flex-wrap: wrap ;  
+    background-color: lightblue;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link-hotel {
+    margin: 10px;
+    display: flex;
+    width: auto;
+}
+
+.fig-hotel {
+    border: 5px solid white;
+    background-color: white;
+    border-radius: 15px;
+    height: 10px;
+    width: 250px;
+    height: auto;
+    box-shadow: 5px 10px 5px black;
+}
+
+.fig-hotel img {
+    object-fit: cover;
+    width: 250px;
+    height: 120px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.hotel-caption {
+    padding-left: 10px;
+}
+
+.hotel-title {
+    font-weight: bold;
+    color: black;
+    font-size: 1.1em;
+    margin-bottom: -10px;
+}
+
+.hotel-subtitle {
+    color:black
+}
+
+figcaption i {
+    color: #0065fc;
+}
+
+
+/* Aside */
+
+#Aside1 {
+    background-color: lightcoral;
+    border-radius: 15px;
+    width: 30%;
+}
+
+/* Second Article */
+
+#ArticleAct {
+    background-color: lightgreen;
+    height: 250px;
+}
+
+/* Footer */
+
+.Footer {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer1 {
+    background-color: lightpink;
+}
+
+.Footer2 {
+    background-color: lightsalmon;
+}
+
+.Footer3 {
+    background-color: lightcoral;
+}
